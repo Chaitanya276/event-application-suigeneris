@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android "
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/event_register_nav"
+        android:title="Event"
+        android:icon="@drawable/scanned" />
+
+    <item
+        android:id="@+id/scanned_qr_nav"
+        android:title="QR Code"
+        android:icon="@drawable/event" />
+    <item
+        android:id="@+id/take_remaining_payment_nav"
+        android:title="Payment"
+        android:icon="@drawable/money" />
+
+
+</menu>

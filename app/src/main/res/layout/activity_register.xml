@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trial"
+    android:verticalScrollbarPosition="defaultPosition"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_event_registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/register"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:alpha="0.7"
+        android:background="@drawable/background_greadient"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background_greadient"/>
+
+        <Spinner
+            android:id="@+id/register_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#035AA6"
+            android:entries="@array/spinner_post"
+            android:fontFamily="@font/dekko" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="#035AA6" />
+
+        <EditText
+            android:id="@+id/register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="false"
+            android:backgroundTint="#035AA6"
+            android:drawableEnd="@drawable/ic_black_person"
+            android:fontFamily="@font/dekko"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textColor="#000"
+            android:textColorHint="#847F7F" />
+
+        <EditText
+            android:id="@+id/register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="false"
+            android:backgroundTint="#035AA6"
+            android:drawableEnd="@drawable/ic_black_email"
+            android:fontFamily="@font/dekko"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:textColorHint="#847F7F" />
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="false"
+            android:backgroundTint="#035AA6"
+            android:drawableEnd="@drawable/ic_black_password"
+            android:fontFamily="@font/dekko"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#847F7F" />
+
+        <EditText
+            android:id="@+id/register_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="false"
+            android:backgroundTint="#035AA6"
+            android:drawableEnd="@drawable/ic_black_password"
+            android:fontFamily="@font/dekko"
+            android:hint="@string/cofirm_password"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#847F7F" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rec_background_greadient"
+            android:fontFamily="@font/dekko"
+            android:text="@string/register"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/reg_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/dekko"
+        android:text="@string/already_registered_login"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+
+

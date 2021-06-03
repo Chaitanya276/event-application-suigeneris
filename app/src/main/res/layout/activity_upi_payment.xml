@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trial"
+    tools:context=".UpiPaymentActivity">
+
+    <TextView
+        android:id="@+id/upi_payment_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/upi_payment"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:alpha="0.7"
+        android:background="@drawable/background_greadient"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/upi_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="false"
+            android:backgroundTint="#216FB2"
+            android:fontFamily="@font/dekko"
+            android:hint="@string/amount"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textColorHint="#645757" />
+
+        <EditText
+            android:id="@+id/upi_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="false"
+            android:backgroundTint="#216FB2"
+            android:fontFamily="@font/dekko"
+            android:hint="@string/upi_id"
+            android:inputType="textPersonName"
+            android:text="@string/pratikdeshmukh2016_1_okhdfcbank"
+            android:textColor="#000"
+            android:textColorHint="#645757" />
+
+        <EditText
+            android:id="@+id/upi_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="false"
+            android:backgroundTint="#216FB2"
+            android:fontFamily="@font/dekko"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:text="Pratik Deshmukh"
+            android:textColor="#000"
+            android:textColorHint="#645757"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/upi_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="false"
+            android:backgroundTint="#216FB2"
+            android:fontFamily="@font/dekko"
+            android:hint="Enter your name"
+            android:inputType="textPersonName"
+            android:textColor="#000"
+            android:textColorHint="#645757"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_upi_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rec_background_greadient"
+            android:fontFamily="@font/dekko"
+            android:text="@string/pay_by_upi"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_navigation"
+        android:fontFamily="@font/dekko"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
+
+</RelativeLayout>

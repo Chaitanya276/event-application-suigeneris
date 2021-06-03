@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">suiGENERiS</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="image_logo">image logo</string>
+    <string name="android">Android</string>
+    <string name="background_image_for_cool_effect">bakcgroud image for cool effect</string>
+    <string name="no_of_attempts_remaining_5">No. of attempts remaining : 5</string>
+    <string name="age">Age</string>
+    <string name="username">Username</string>
+    <string name="event">Event</string>
+    <string name="qr_code">QR Code</string>
+    <string name="background_img">Background_img</string>
+    <string name="blue">blue</string>
+    <string name="go">Go</string>
+    <string name="name">Name</string>
+    <string name="unique">Unique :</string>
+    <string name="gererate_qr_code">Gererate QR Code</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="cofirm_password">Cofirm password</string>
+    <string name="back">Back</string>
+    <string name="arabica">arabica</string>
+    <string name="qrcode_image">QRCode Image</string>
+    <string name="contact_no">Contact no.</string>
+    <string name="event_name">Event :</string>
+    <string name="player_name">Name :</string>
+    <string name="spinner_trial">Spinner Trial</string>
+    <string name="user_id">User Id :</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="user_uid">User Uid :</string>
+    <string name="qr_code_scanner">QR Code Scanner</string>
+    <string name="register_event">Register Event</string>
+    <string name="logout">Logout</string>
+    <string name="uid">Uid :</string>
+    <string name="event_nm">Event name :</string>
+    <string name="event_amount">Event amount :</string>
+    <string name="new_user_register">New user? Register</string>
+    <string name="right_angular"><![CDATA[>]]></string>
+    <string name="already_registered_login">Already registered? Login</string>
+    <string name="player_name_">Player name :</string>
+    <string name="player_email">Player email :</string>
+    <string name="event_details">Event Details</string>
+    <string name="pay_remaining_amount">Pay Remaining Amount</string>
+    <string name="take_remaining_payment">Take remaining payment</string>
+    <string name="submit_payment">Submit payment</string>
+    <string name="enter_remaining_amount_here">Enter remaining amount here</string>
+    <string name="update_payment">Update payment</string>
+    <string name="enter_full_amount">Enter full amount</string>
+    <string name="hint_enter_full_amount">Hint : Enter full amount</string>
+    <string name="update_payment_">Update Payment</string>
+    <string name="amount">Amount</string>
+    <string name="upi_payment">Upi Payment</string>
+    <string name="pay_by_upi">Pay by UPI</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="pratikdeshmukh2016_1_okhdfcbank">pratikdeshmukh2016-1@okhdfcbank</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="enter_email">Enter email</string>
+    <string name="send_password_reset_email">Send password reset email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="credit_rida_fatima">Credit : Rida Fatima</string>
+    <string name="login">Login</string>
+    <string name="event_gallery">Event Gallery</string>
+    <string-array name="spinner_post">
+        <item>Post</item>
+        <item>Technical</item>
+        <item>Event</item>
+        <item>PRO</item>
+        <item>Sports</item>
+        <item>Social</item>
+        <item>Decoration</item>
+        <item>Documentation</item>
+    </string-array>
+    <string-array name="spinner_event">
+        <item>Event</item>
+        <item>Cs Go</item>
+        <item>PUBG (Duo)</item>
+        <item>PUBG (Squad)</item>
+        <item>Carrom</item>
+        <item>Search In the Dark</item>
+        <item>VR</item>
+        <item>Dead Shot</item>
+        <item>DBugging</item>
+        <item>Protovision</item>
+        <item>Rugby</item>
+        <item>Unravel</item>
+        <item>Knock It Down</item>
+        <item>IPL</item>
+    </string-array>
+</resources>
